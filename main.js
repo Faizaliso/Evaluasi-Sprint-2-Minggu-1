@@ -35,7 +35,7 @@ dataFilm.unshift({
     studio: 'Muezzaproject',
     status: true
 })
-delete (dataFilm[0].genre)
-dataFilm[0].status = true ? false : true
+delete dataFilm[0]
+dataFilm[1].status = true ? false : true
 console.log(dataFilm)
 console.log(dataFilm[1].actor[3])
